@@ -1,0 +1,108 @@
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" max-version="1">
+  <grid id="rootPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1">
+    <margin top="10" left="10" right="10" bottom="10"/>
+    <constraints>
+      <xy x="20" y="20" width="600" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="titled">
+      <title>Event Management System</title>
+    </border>
+    <children>
+      <grid id="contentPanel" layout-manager="GridLayoutManager" row-count="5" column-count="2">
+        <margin top="10" left="10" right="10" bottom="10"/>
+        <properties/>
+        <children>
+          <!-- Labels -->
+          <component id="labelName" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" anchor="west" fill="none" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Event Name:"/>
+            </properties>
+          </component>
+          <component id="labelDescription" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" anchor="west" fill="none" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Description:"/>
+            </properties>
+          </component>
+          <component id="labelTime" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" anchor="west" fill="none" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Time:"/>
+            </properties>
+          </component>
+          <component id="labelDuration" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" anchor="west" fill="none" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Duration:"/>
+            </properties>
+          </component>
+          <component id="labelDate" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" anchor="west" fill="none" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Date:"/>
+            </properties>
+          </component>
+
+          <!-- Input Fields -->
+          <component id="nameField" class="javax.swing.JTextField">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" anchor="west" fill="horizontal" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="descriptionField" class="javax.swing.JTextField">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" anchor="west" fill="horizontal" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="timeField" class="javax.swing.JTextField">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" anchor="west" fill="horizontal" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="durationField" class="javax.swing.JTextField">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" anchor="west" fill="horizontal" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="dateChooser" class="com.toedter.calendar.JDateChooser">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" anchor="west" fill="horizontal" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+
+      <grid id="tablePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" anchor="center" fill="both" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <children>
+          <component id="eventTable" class="javax.swing.JTable">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" anchor="center" fill="both" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
