@@ -11,7 +11,7 @@ The Event Management System is a Java-based desktop application built using Swin
 
 ## Screenshots
 ### Main Interface
-![Main Interface](resources/main_interface.png)
+![Main Interface](resources/Screenshot 2024-11-16 080519.png)
 
 ### Adding an Event
 ![Adding Event](resources/add_event.png)
